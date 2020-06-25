@@ -17,7 +17,7 @@ namespace Example {
       double V_ip_init = 1;
       double sigma_0 = 100;
       double tau_ip = 1;
-      double dt = 1e-1;
+      double dt = 1e-3;
 
       // Define the needed parameters, these can differ for different models
       GlobalBranchParameters global_branch_prm({.zeta = 1e5});
@@ -53,6 +53,6 @@ namespace Example {
 
       // This is how the history can be accessed
       std::cout << "The current pressure is " << _history->back().first.P << " and the pressure 20 time steps ago was " << _history->at(_history->size() - 1 - 20).first.P << std::endl;
-      std::cout << "The initial volume is " << _history->front().first.V << " and the current volume is " << _history->back().first.V << std::endl;
+      std::cout << "The volume after the first step is " << _history->front().first.V << " and the current volume is " << _history->back().first.V << std::endl;
   }
 }

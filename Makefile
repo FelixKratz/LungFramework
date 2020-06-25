@@ -1,11 +1,11 @@
 FRAMEWORK_DIR =./framework
 MODEL_DIR =./model
 CC=g++
-CFLAGS=-I$(FRAMEWORK_DIR) -I$(MODEL_DIR) -std=c++17 -Xpreprocessor -fopenmp -lomp -ffast-math -g -lm -m64 -flto -march=native -Ofast
+CFLAGS=-I$(FRAMEWORK_DIR) -I$(MODEL_DIR) -std=c++17 -Xpreprocessor -fopenmp -ffast-math -g -lm -m64 -flto -march=native -Ofast
 
 ODIR = ./out/
 
-run: | $(ODIR)sim
+run: clear | $(ODIR)sim
 	cd $(ODIR) && ./sim
 
 $(ODIR)sim: | $(ODIR)
@@ -13,3 +13,6 @@ $(ODIR)sim: | $(ODIR)
 
 $(ODIR):
 	mkdir $(ODIR)
+
+clear:
+	rm -r $(ODIR)
