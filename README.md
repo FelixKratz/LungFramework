@@ -1,4 +1,4 @@
-Developed at Princeton University
+Developed at Princeton University; please direct any correspondence to Prof. Sujit Datta.
 
 Author: Felix Kratz (felix.kratz@tu-dortmund.de)<br/>
 Supervisors: Jean-Francois Louf (jlouf@princeton.edu)<br/>
@@ -10,7 +10,8 @@ If you use this work in your research department or company and
 you publish data obtained with this, please cite the following
 article:
 
-* Following soon
+Elastocapillary network model of inhalation -- J.-F. Louf†, F. Kratz†, S. S. Datta*, in press, Physical Review Research (2020).<br/>
+†=co-first authors, *=corresponding author
 
 # Use of the Framework
 The supplied version of the framework also comes with an example for the
