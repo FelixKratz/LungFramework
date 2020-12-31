@@ -10,8 +10,23 @@ If you use this work in your research department or company and
 you publish data obtained with this, please cite the following
 article:
 
-Elastocapillary network model of inhalation -- J.-F. Louf†, F. Kratz†, S. S. Datta*, in press, Physical Review Research (2020).<br/>
+Elastocapillary network model of inhalation -- J.-F. Louf†, F. Kratz†, S. S. Datta*, Physical Review Research (2020). DOI: [10.1103/PhysRevResearch.2.043382](https://doi.org/10.1103/PhysRevResearch.2.043382) <br/>
 †=co-first authors, *=corresponding author
+
+```latex
+@article{Louf2020,
+  title = {Elastocapillary network model of inhalation},
+  author = {Louf, Jean-Fran\ifmmode \mbox{\c{c}}\else \c{c}\fi{}ois and Kratz, Felix and Datta, Sujit S.},
+  journal = {Phys. Rev. Research},
+  volume = {2},
+  issue = {4},
+  pages = {043382},
+  year = {2020},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevResearch.2.043382},
+}
+```
+
 
 # Use of the Framework
 The supplied version of the framework also comes with an example for the
